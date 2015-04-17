@@ -1,0 +1,3 @@
+Create zip file bundle with the following command:
+
+zip -r sbacOpenAM-Installv2 *

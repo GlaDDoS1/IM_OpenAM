@@ -1,0 +1,390 @@
+/*------------------------------------*\
+	RESET
+\*------------------------------------*/
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+fieldset, img {
+    border: 0;
+}
+address, caption, cite, code, dfn, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+caption, th {
+    text-align: left;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+q:before, q:after {
+    content: '';
+}
+abbr, acronym {
+    border: 0;
+}
+/*------------------------------------*\
+	MAIN
+\*------------------------------------*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    MARGIN: 0;
+    font-size: 100%;
+}
+h1 {
+    color: #18577E;
+    margin: 1.3em 0.5em 0 0;
+    padding: 0;
+    width: auto;
+    font-size: 170%;
+}
+.title h1 {
+    color: #18577E;
+    float: right;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 1.3em 0.5em 0 0;
+    padding: 0;
+    width: auto;
+}
+h2 {
+    font-size: 160%;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+h3 {
+    font-size: 120%;
+    font-weight: bold;
+}
+h4 {
+    font-size: 120%;
+    font-weight: bold;
+    border-top: 1px solid #bfc8d1;
+    color: #0F6797;
+}
+label {
+    font-size: 100%;
+}
+p, a.more {
+    font-size: 85%;
+    line-height: 160%;
+}
+a.more:active, a.more:visited, a.more {
+    color: #0F6797;
+    text-decoration: none;
+}
+.header, .footer, .nav {
+    display: block;
+    clear: both;
+}
+.content {
+    /*width: 85%;*/
+    width: 830px;
+    margin: 7% auto;
+    min-height: 400px;
+}
+header {
+    background: linear-gradient(#043C57, #042D43) repeat scroll 0 0 transparent;
+    border-bottom: 5px solid #43748F;
+    height: 63px;
+}
+.sitelogo {
+    background: url("/auth/images/banner-base.jpg") no-repeat top left;
+    height: 80px;
+    text-indent: -9999px;
+    border-bottom: 5px solid #BE2D22
+}
+.logo {
+    background: none repeat scroll 0 0 transparent;
+    display: inline-block;
+    height: auto;
+    margin: 0;
+    padding: 0.7em 0 0 1em;
+    width: 160px;
+}
+.clientlogo {
+    border-bottom: 20px solid #0F6797
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+* html .clearfix {
+    zoom: 1;
+} /* IE6 */
+*:first-child+html .clearfix {
+    zoom: 1;
+} /* IE7 */
+
+/*.ie .login {*/
+    /*width: 350px;*/
+/*}*/
+/*.ie .info {*/
+    /*width: 450px;*/
+/*}*/
+.login {
+    float: right;
+    /*width: 40%;*/
+    width: 400px;
+}
+
+.securityquestions {
+    float: right;
+    width: 400px;
+}
+
+.loginbox {
+    margin: 0;
+    border: 5px solid #BFC8D1;
+    background: #DBDCE0;
+}
+/*.loginbox ul {
+    margin: 3%;
+}*//*
+.ie .login ul {margin:5px;}*/
+.loginbox li {
+    list-style-type: none;
+    margin: 3% 2% 4%;
+}
+.loginbox label {
+    display: block;
+    font-weight: bold;
+    text-align: right;
+    width: 35%;
+    float: left;
+    margin-top: 3px;
+}
+.ie7 .loginbox label {
+    width: 7em;
+}
+.login input {
+    border: 1px solid #AACFE4;
+    float: left;
+    font-size: 100%;
+    margin: 2% 0 0 1%;
+    padding: 3% 0;
+    width: 50%;
+}
+.loginbox .small {
+    color: #666666;
+    display: block;
+    font-size: 11px;
+    font-weight: normal;
+    text-align: right;
+}
+.loginbox .button {
+    background: none repeat scroll 0 0 #63666A;
+    border: 0 solid;
+    border-radius: 0 0 0 0;
+    clear: both;
+    color: #FFFFFF;
+    font-size: 110%;
+    font-weight: bold;
+    margin-left: 40%;
+    padding: 3%;
+    text-align: center;
+    cursor: pointer;
+}
+.loginbox .button:hover {
+    background-color: #1E2224;
+    color: #43AEDA;
+}
+section {
+    padding: 0 0px 30px;
+}
+section p {
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    /*white-space: nowrap;*/
+    white-space: normal;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height:3em!important;
+}
+section:after {
+    content:'...';}
+section p.active {
+    text-overflow: visible;
+    -o-text-overflow: visible;
+    white-space: normal;
+    word-break: break-all;
+    overflow: visible;
+    height:100%!important;
+}
+h3 {
+    margin: 0;
+    padding: 0;
+}
+h4 {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+.more {
+    display: inline;
+    float: left;
+}
+textarea:focus, input:focus {
+    border: 1px solid #900;
+}
+.footer {
+    width: 100%;
+    color: #0F6797;
+    text-align: center;
+}
+a:visited, a:active {
+    color: #0F6797;
+}
+.extrahelp span.icon {
+    background: url("/auth/images/tools.png") no-repeat scroll 11px 7px transparent;
+    float: left;
+    height: 100px;
+    width: 75px;
+}
+.extrahelp p {
+    font-size: 75%;
+    padding: 1%;
+    margin-left: 80px;
+}
+.extrahelp span {
+    color: #0F6797;
+    font-weight: bold;
+}
+a.forgetpassword {
+    margin-left: 38%;
+    display: inline-block;
+    color: #BE2D22;
+    font-weight: bold;
+    font-size: 85%;
+    margin-top: 0px;
+}
+.banner {
+    box-shadow: 0 0 8px 0 #A6A6A6;
+    height: 70px;
+}
+.info {
+    color: #000000;
+    float: left;
+    font-size: 0.9em;
+     width: 400px;
+     margin-bottom: 1em;
+}
+.icon_node1 {
+    background-position: 0 -400px;
+}
+.icon_sprite {
+    background-image: url("/auth/images/SBAC_IconSprite.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 25px;
+    margin: 2px 2px 2px 10em;
+    padding: 0 !important;
+    width: 25px;
+}
+.boxTitle {
+    display: block;
+    width: 100%;
+}
+.login h1 {
+    color: #18577E;
+    font: bold 1.2em/1.2 'Arial',sans-serif;
+    margin: 0 0 0 0;
+    padding: 0.3em 0 0.6em;
+    text-align: center;
+}
+
+/*.row { clear:both; margin-bottom:10px; float:left; width:100%; }*/
+
+.error {
+    background: url("/auth/images/errorandalert.png") no-repeat scroll 5px -82px #FFE4E1;
+    clear: both;
+    color: #CC0000;
+    display: block;
+    margin: 1.5em 0;
+    min-height: 1.75em;
+    padding: 0.25em 1em 0.25em 2.5em;
+}
+
+.success {
+    background: url("/auth/images/successandalert.png") no-repeat scroll 5px -78px lightgreen;
+    clear: both;
+    color: green;
+    display: block;
+    margin: 1.5em 0;
+    min-height: 1.75em;
+    padding: 0.25em 1em 0.25em 2.5em;
+}
+
+.logout {
+    background: url("/auth/images/errorandalert.png") no-repeat scroll 5px -82px #FFE4E1;
+    color: #CC0000;
+    clear: both;
+    display: block;
+    margin: 1.5em 0;
+    min-height: 1.75em;
+    padding: 0.25em 1em 0.25em 2.5em;
+}
+
+.display-none {
+    display: none;
+}
+
+.Btn1 {
+    background: none repeat scroll 0 0 #5A5A5A;
+    border: medium none;
+    border-radius: 0;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 4px;
+}
+.Btn1Hov {
+    background: #000000;
+    border: medium none;
+    border-radius: 0;
+    color: #42AECF;
+    font-weight: bold;
+    padding: 4px;
+}
+
+.ConFldSetDiv {
+    background: none repeat scroll 0 0 #DBDCE0;
+    padding: 12px;
+}
+.TtlBtnDiv {
+    margin-top: 12px;
+}
+.TblMgn {
+    background: none repeat scroll 0 0 #DBDCE0;
+    padding: 12px;
+}
+.TtlTxt {
+    font-size: 130%;
+    font-weight: bold;
+}
+.ConTblCl1Div {
+    padding-bottom: 6px;
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {.title h1 {
+  
+  font-size: 0.9em;
+  font-weight: bold;
+ 
+}}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  /* Styles */
+}
