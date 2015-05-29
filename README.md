@@ -57,8 +57,6 @@ The EndUser pages as well as pages that handle password reset and the entering o
 *	config/auth/default/services/sbac/html/Login.jsp
 *	config/auth/default/services/sbac/html/session_timeout.jsp
 *	config/auth/default/services/sbac/html/login_failed_template.jsp
-*	WEB-INF/lib/openam-federation-library-10.1.0-Xpress.jar
-*	WEB-INF/lib/openam-auth-ldap-10.1.0-Xpress.jar
 *	WEB-INF/classes/amConsole.properties
 *	WEB-INF/classes/amPasswordReset.properties
 *	WEB-INF/classes/amAccessControl.xml
@@ -66,8 +64,6 @@ The EndUser pages as well as pages that handle password reset and the entering o
 *	WEB-INF/classes/amAuthUI.properties
 *	WEB-INF/classes/amAuthUI_en.properties
 *	WEB-INF/classes/amPasswordResetModuleMsgs.properties
-*	WEB-INF/template/ldif/sfha/cts-add-schema.ldif
-*	WEB-INF/template/ldif/sfha/cts-delete-schema.ldif
 *	js/browser.js
 *	js/modernizer.js
 *	js/jquery.cookie.js

@@ -106,7 +106,7 @@
         <projectName>OpenAM</projectName>
 
         <serverDocTargetVersion>${project.version}</serverDocTargetVersion>
-        <agentsDocTargetVersion>3.5.0-SNAPSHOT</agentsDocTargetVersion>
+        <agentsDocTargetVersion>3.5.0</agentsDocTargetVersion>
         <webAgentsDocTargetVersion>${agentsDocTargetVersion}</webAgentsDocTargetVersion>
         <javaEEAgentsDocTargetVersion>${agentsDocTargetVersion}</javaEEAgentsDocTargetVersion>
         <agentsBootstrapFile>OpenSSOAgentBootstrap.properties</agentsBootstrapFile>

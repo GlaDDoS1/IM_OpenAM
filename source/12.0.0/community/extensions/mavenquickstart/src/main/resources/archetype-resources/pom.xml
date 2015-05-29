@@ -65,17 +65,7 @@
 #end
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <openam.version>12.0.0-SNAPSHOT</openam.version>
+        <openam.version>12.0.0</openam.version>
     </properties>
 
-    <repositories>
-        <repository>
-            <id>forgerock-releases</id>
-            <url>http://maven.forgerock.org/repo/releases</url>
-        </repository>
-        <repository>
-            <id>forgerock-snapshots</id>
-            <url>http://maven.forgerock.org/repo/snapshots</url>
-        </repository>
-    </repositories>
 </project>

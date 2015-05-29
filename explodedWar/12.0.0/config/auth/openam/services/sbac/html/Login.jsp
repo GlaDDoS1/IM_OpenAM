@@ -348,9 +348,9 @@
         <%--</ul>--%>
         </div>
         <div class="extrahelp"> <span class="icon"></span>
-        <p> <span> Smarter Balanced Help Desk Information:</span><br />
-        <b>Phone:</b> 1.855.833.1969<br />
-        <b>Email:</b> smarterbalancedhelpdesk@ets.org<br />
+        <p> <span> Help Desk Information:</span><br />
+        <b>Phone:</b> 1.800.555.1212<br />
+        <b>Email:</b> help@fake-email.com<br />
         </p>
         </div>
         </div>

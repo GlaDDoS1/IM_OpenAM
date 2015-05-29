@@ -57,20 +57,4 @@
                     <version>1.2.1</version>
                 </dependency>
 	</dependencies>
-      <repositories>
-            <repository>
-                <id>atlassian-public</id>
-                <url>https://maven.atlassian.com/repository/public</url>
-                <snapshots><enabled>true</enabled></snapshots>
-                <releases><enabled>true</enabled></releases>
-            </repository>
-            <repository>
-                <id>forgerock</id>
-                <url>http://repo.forgerock.org</url>
-            </repository>
-            <repository>
-                <id>atlassian-m1</id>
-                <url>https://maven.atlassian.com/content/groups/m1</url>
-            </repository>
-      </repositories>
 </project>

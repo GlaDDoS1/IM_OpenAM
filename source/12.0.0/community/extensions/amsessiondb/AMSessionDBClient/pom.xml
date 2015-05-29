@@ -20,7 +20,7 @@
 
     <groupId>com.forgerock.openam</groupId>
     <artifactId>AMSessionDBClient</artifactId>
-    <version>0.2-SNAPSHOT</version>
+    <version>0.2</version>
     <packaging>jar</packaging>
     <name>AMSessionDBClient</name>
     <build>
@@ -41,13 +41,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <repositories>
-        <repository>  
-            <id>maven-restlet</id>  
-            <name>Public online Restlet repository</name>  
-            <url>http://maven.restlet.org</url>  
-        </repository> 
-    </repositories>
 
     <dependencies>
         <dependency>
